@@ -1,0 +1,40 @@
+.product {
+  font-family: Conv_Metropolis;
+  font-style: normal;
+  text-transform: uppercase;
+  .tile{
+    border: 2px solid $vessi-green;
+    color: #FFFFFF;
+    position: relative;
+    .sticker {
+      background-color: $vessi-green;
+      box-sizing: border-box;
+      text-align: center;      
+      width: auto;
+                    
+    }
+    .quick-add {
+      background-color: $vessi-green;
+      bottom: 0;
+      cursor: pointer;
+      display: flex;
+      font-style: normal;
+      justify-content: center;
+      position: absolute;
+      text-align: center;           
+      &:hover { color: $vessi-green-light; }            
+    }
+  }
+  .footer {
+    color: $vessi-green;          
+    text-align: left;           
+    .info {   
+      .name { display: block; }
+      .color {
+        display: block;
+        color: $vessi-green-light;
+      }
+      .price { display: block; }
+    }
+  }
+}

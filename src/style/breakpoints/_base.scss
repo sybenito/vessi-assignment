@@ -1,0 +1,40 @@
+/******************************************************************
+Mobile
+******************************************************************/
+.product {
+  .tile{
+    color: #FFFFFF;
+    height: 205px;
+    width: 205px;
+    .sticker {
+      border: 1.7px solid $vessi-green;
+      font-weight: bold;
+      font-size: 8.51966px;
+      line-height: 74%;
+      text-align: center;
+      letter-spacing: 0.18em;
+      padding: 5.7px 16px 5.5px 14px;        
+    }
+    .quick-add {
+      font-weight: 500;
+      font-size: 9.63796px;
+      line-height: 13px;
+      /* or 136% */
+      text-align: center;
+      letter-spacing: 0.05em;
+      padding: 11px 0 10.6px 0;
+    }
+  }
+  .footer {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.637px;
+    line-height: 13px;
+    .info {   
+      line-height: 1.5; //style from website -- figma line-height: 22px
+      .color {
+        font-weight: 400;
+      }
+    }
+  }
+}
